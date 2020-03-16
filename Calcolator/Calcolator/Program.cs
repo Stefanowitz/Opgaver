@@ -4,11 +4,19 @@ namespace Calculator
 {
     class Program
     {
-        int number1 = 0; int number2 = 0;
-        public void Main(string[] args)
+        public static Cal calc = new Cal();
+        static void Main(string[] args)
         {
-            Begining:
+            calc.CalBegin();
+        }
+    }
 
+    class Cal
+    {
+
+        int number1 = 0; int number2 = 0;
+        public void CalBegin()
+        {
             Console.WriteLine("Hello im your trusty Calcolator\r");
             Console.WriteLine("------------------------\n");
 
@@ -57,7 +65,7 @@ namespace Calculator
             {
                 case "y":
                     Console.Clear();
-                    Main();
+                    CalBegin();
                     break;
                 case "n":
                     Environment.Exit(0);
