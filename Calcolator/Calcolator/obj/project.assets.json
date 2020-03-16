@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programering\\Projekter\\C#\\Calcolator\\Calcolator\\Calcolator.csproj",
+      "projectUniqueName": "E:\\Programering\\Projekter\\C#\\Opgaver\\Calcolator\\Calcolator\\Calcolator.csproj",
       "projectName": "Calcolator",
-      "projectPath": "E:\\Programering\\Projekter\\C#\\Calcolator\\Calcolator\\Calcolator.csproj",
+      "projectPath": "E:\\Programering\\Projekter\\C#\\Opgaver\\Calcolator\\Calcolator\\Calcolator.csproj",
       "packagesPath": "C:\\Users\\Stefa\\.nuget\\packages\\",
-      "outputPath": "E:\\Programering\\Projekter\\C#\\Calcolator\\Calcolator\\obj\\",
+      "outputPath": "E:\\Programering\\Projekter\\C#\\Opgaver\\Calcolator\\Calcolator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
