@@ -6,6 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            Begining:
             int number1 = 0; int number2 = 0;
 
             Console.WriteLine("Hello im your trusty Calcolator\r");
@@ -39,7 +40,20 @@ namespace Calculator
                     Console.WriteLine($"Your result: {number1} / {number2} (Insert Drum roll here)= " + (number1 / number2));
                     break;
             }
-            Console.ReadKey();
+            Console.WriteLine("Do you want more Number Magic");
+            Console.WriteLine("\ty - Yes");
+            Console.WriteLine("\tn - No");
+            switch (Console.ReadLine())
+            {
+                case "y":
+                    Console.Clear();
+                    goto Begining;
+                    break;
+                case "n":
+                    Environment.Exit(0);
+                    break;
+            }
+
         }
     }
 }

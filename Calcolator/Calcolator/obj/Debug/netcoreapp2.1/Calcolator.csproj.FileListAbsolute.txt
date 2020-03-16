@@ -9,3 +9,14 @@ E:\Programering\Projekter\C#\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calco
 E:\Programering\Projekter\C#\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.AssemblyInfo.cs
 E:\Programering\Projekter\C#\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.dll
 E:\Programering\Projekter\C#\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.pdb
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\bin\Debug\netcoreapp2.1\Calcolator.deps.json
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\bin\Debug\netcoreapp2.1\Calcolator.runtimeconfig.json
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\bin\Debug\netcoreapp2.1\Calcolator.runtimeconfig.dev.json
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\bin\Debug\netcoreapp2.1\Calcolator.dll
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\bin\Debug\netcoreapp2.1\Calcolator.pdb
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.csprojAssemblyReference.cache
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.csproj.CoreCompileInputs.cache
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.AssemblyInfoInputs.cache
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.AssemblyInfo.cs
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.dll
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.pdb
