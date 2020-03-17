@@ -8,6 +8,8 @@ namespace Calcolator
     {
         public static Cal calc = new Cal();
         public static Distance dis = new Distance();
+        public static Weight wei = new Weight();
+
         public void Menu()
         {
             Console.Clear();
@@ -15,7 +17,7 @@ namespace Calcolator
             Console.WriteLine("\t1 - Normal Calculator");
             Console.WriteLine("\t2 - Distance Converter");
             //Console.WriteLine("\t3 - Weight Converter");
-            //Console.WriteLine("\t2 - Height COnverter");
+            //Console.WriteLine("\t4 - Height COnverter");
             Console.WriteLine("Please choose an option");
             switch (Console.ReadLine())
             {
@@ -25,6 +27,11 @@ namespace Calcolator
                 case "2":
                     dis.DisBegin();
                     break;
+                case "3":
+                    wei.WeightBegin();
+                    break;
+                        
+                    
             }
         }
     }

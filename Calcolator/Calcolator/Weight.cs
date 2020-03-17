@@ -4,55 +4,52 @@ using System.Text;
 
 namespace Calcolator
 {
-    class Distance
+
+    class Weight
     {
         public static MainMenu mm = new MainMenu();
 
-
-        double lenght = 0;
-        public void DisBegin()
+        double weight = 0;
+        public void WeightBegin()
         {
             Console.Clear();
-            Console.WriteLine("Let's Start with somthing simple What is the lenght");
-            lenght = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Okay Weight Let's Begin, What is the Weight");
+            weight = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Now you have to pick how i shall Convert it");
-            Console.WriteLine("\t1 - KM to Miles");
-            Console.WriteLine("\t2 - Miles to KM");
-            DisMath();
-
-
+            Console.WriteLine("\t1 - Kg to Lbs");
+            Console.WriteLine("\t2 - Lbs to Kg");
+            WeiMath();
         }
 
-        double mileUnitLenght = 0.62137;
-        double kmUnitLenght = 1.609344;
-        string km = "km";
-        string mile = "mile(s)";
-        public void DisMath()
+        double lbsUnitMass = 2.204623;
+        double kgUnitMass = 0.4535923;
+        string kilograms = "kg";
+        string lbs = "Lbs";
+        public void WeiMath()
         {
             switch (Console.ReadLine())
             {
                 case "1":
-                    CalcLength(mileUnitLenght, km,mile);
+                    CalcWeight(lbsUnitMass, kilograms, lbs);
                     break;
                 case "2":
-                    CalcLength(kmUnitLenght,mile,km);
+                    CalcWeight(kgUnitMass, lbs, kilograms);
                     break;
 
             }
-        }
 
-        public void CalcLength(double input, string type1, string type2)
+        }
+        public void CalcWeight(double input, string type1, string type2)
         {
             Console.Clear();
             Console.WriteLine($"\nHow do we do this");
             Console.WriteLine($"\nI know That 1 {type2} is equivalent to {input} {type1}");
-            Console.WriteLine($"\nBut we need to find what {lenght}{type1} is in {type2}");
-            Console.WriteLine($"\nLet's do this {lenght} * {input}");
-            Console.WriteLine((lenght * input) + type1);
+            Console.WriteLine($"\nBut we need to find what {weight}{type1} is in {type2}");
+            Console.WriteLine($"\nLet's do this {weight} * {input}");
+            Console.WriteLine((weight * input) + type1);
             Console.ReadKey();
             Restart();
         }
-
         public void Restart()
         {
             Console.WriteLine("Do you want to restart or go back to Main Menu");
@@ -62,13 +59,14 @@ namespace Calcolator
             {
                 case "r":
                     Console.Clear();
-                    DisBegin();
+                    WeightBegin();
                     break;
                 case "m":
                     mm.Menu();
                     break;
             }
         }
-    }
 
+
+    }
 }
