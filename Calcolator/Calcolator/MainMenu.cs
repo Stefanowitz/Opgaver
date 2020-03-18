@@ -17,7 +17,7 @@ namespace Calcolator
             Console.WriteLine("\t1 - Normal Calculator");
             Console.WriteLine("\t2 - Distance Converter");
             Console.WriteLine("\t3 - Weight Converter");
-            //Console.WriteLine("\t4 - Height COnverter");
+            //Console.WriteLine("\t4 - Heat Converter");
             Console.WriteLine("Please choose an option");
             switch (Console.ReadLine())
             {

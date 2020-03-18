@@ -48,7 +48,7 @@ namespace Calcolator
             Console.WriteLine($"\nI know That 1 {type2} is equivalent to {input} {type1}");
             Console.WriteLine($"\nBut we need to find what {lenght}{type1} is in {type2}");
             Console.WriteLine($"\nLet's do this {lenght} * {input}");
-            Console.WriteLine((lenght * input) + type1);
+            Console.WriteLine(Math.Round(lenght * input,2) + $" {type1}");
             Console.ReadKey();
             Restart();
         }
