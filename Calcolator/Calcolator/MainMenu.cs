@@ -16,7 +16,7 @@ namespace Calcolator
             Console.WriteLine("Hello there how can i be of service");
             Console.WriteLine("\t1 - Normal Calculator");
             Console.WriteLine("\t2 - Distance Converter");
-            //Console.WriteLine("\t3 - Weight Converter");
+            Console.WriteLine("\t3 - Weight Converter");
             //Console.WriteLine("\t4 - Height COnverter");
             Console.WriteLine("Please choose an option");
             switch (Console.ReadLine())
