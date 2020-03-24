@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Heat.cs~RF18900db3.TMP" />
+  </ItemGroup>
+
 </Project>
