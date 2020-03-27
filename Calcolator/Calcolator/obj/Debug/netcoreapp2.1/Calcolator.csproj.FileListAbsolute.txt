@@ -20,3 +20,4 @@ E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2
 E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.AssemblyInfo.cs
 E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.dll
 E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.pdb
+E:\Programering\Projekter\C#\Opgaver\Calcolator\Calcolator\obj\Debug\netcoreapp2.1\Calcolator.genruntimeconfig.cache

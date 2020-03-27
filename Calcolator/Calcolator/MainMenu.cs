@@ -9,6 +9,7 @@ namespace Calcolator
         public static Cal calc = new Cal();
         public static Distance dis = new Distance();
         public static Weight wei = new Weight();
+        public static Heat hea = new Heat();
 
         public void Menu()
         {
@@ -30,8 +31,11 @@ namespace Calcolator
                 case "3":
                     wei.WeightBegin();
                     break;
-                        
-                    
+                case "4":
+                    hea.HeatBegin();
+                    break;
+
+
             }
         }
     }
